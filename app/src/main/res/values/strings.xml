@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">academicoschedule</string>
+    <string name="professores">Professores</string>
+    <string name="alunos">Alunos</string>
+    <string name="COORDENADORES" />
+    <string name="coordenador">COORDENADOR</string>
+    <string name="professor">PROFESSOR</string>
+    <string name="aluno">ALUNO</string>
+</resources>
