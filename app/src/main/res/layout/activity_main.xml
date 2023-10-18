@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_gravity="center"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <Button
@@ -13,13 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:paddingVertical="10dp"
-        android:background="@drawable/buttons"
+        style="@style/MeuBotaoStyle"
         android:text="@string/coordenador"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_above="@id/button_teachers" />
 
     <Button
         android:id="@+id/button_teachers"
@@ -31,17 +28,28 @@
         android:background="@drawable/buttons"
         android:text="@string/professor"
         android:textSize="20sp"
-        android:layout_below="@id/button_admins" />
+        android:layout_above="@id/button_students" />
 
     <Button
         android:id="@+id/button_students"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:paddingVertical="10dp"
         android:background="@drawable/buttons"
         android:text="@string/aluno"
-        android:textSize="20sp"
-        android:layout_below="@id/button_teachers" />
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageview_logo"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/logo_academico"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
 
 </RelativeLayout>
