@@ -6,4 +6,7 @@
     <string name="coordenador">COORDENADOR</string>
     <string name="professor">PROFESSOR</string>
     <string name="aluno">ALUNO</string>
+    <string name="seja_bem_vindo_a_coordenador_a">Seja bem vindo(a) Coordenador(a)</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
 </resources>
